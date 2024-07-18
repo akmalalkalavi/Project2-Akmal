@@ -312,7 +312,7 @@
                   <h4>Website 2</h4>
                   <p>Website Company Profile PT. Alexindo Mandiri Express Logistics</p>
                   <a href="assets/img/portfolio/website-2.png" title="Website 2" data-gallery="portfolio-gallery-website" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="https://amexlogistics.id/" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->

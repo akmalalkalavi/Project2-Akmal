@@ -7,63 +7,535 @@
 
 <!-- CONTENT -->
 
-<section>
+<main class="main">
 
-    <h1>About this page</h1>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
 
-    <p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
 
-    <p>If you would like to edit this page you will find it located at:</p>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Akmal Alkalafi</h2>
+        <p>I'm <span class="typed" data-typed-items="Developer, Freelancer, Administrator">Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
 
-    <pre><code>app/Views/welcome_message.php</code></pre>
+    </section><!-- /Hero Section -->
 
-    <p>The corresponding controller for this page can be found at:</p>
+    <!-- About Section -->
+    <section id="about" class="about section">
 
-    <pre><code>app/Controllers/Home.php</code></pre>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Saya adalah seorang Web Developer yang sangat bersemangat dalam menciptakan pengamalan visual yang user friendly. Dalam latar belakang informasi dan teknologi, saya memiliki keahlian mengelola informasi untuk memnjadi konten menarik dalam Website.</p>
+      </div><!-- End Section Title -->
 
-</section>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-<div class="further">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/my-profile-img.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Copy Writer &amp; Beginner Web Developer.</h2>
+            <p class="fst-italic py-3">
+              Sebagai seorang Copy Writer dan Beginner Web Developer yang berdedikasi, saya memiliki pengalaman dalam merevitalisasikan konten berkualitas tinggi serta membangun dan memelihara situs web dengan meraik dan fungsional.
+              Saya fokus pada penyampaian pesan yang jelas dan efektif, serta memastikan bahwa setiap proyek web yang saya tangani memenuhi standar terbaik dalam desain dan pengembangan.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>12 Oktober 2003</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+6283-8123-2139</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Tangerang, Bantenn</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>20</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Beginner</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>akhallavi12@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+            Saya menawarkan layanan freelance dalam penulisan konten dan pengembangan web. 
+            Dengan latar belakang yang kuat dalam industri ini, saya berkomitmen untuk membantu klien mencapai tujuan mereka dengan solusi yang inovatif dan disesuaikan. Baik Anda memerlukan salinan yang persuasif atau situs web yang optimal, saya siap untuk memberikan hasil yang memuaskan.
+            </p>
+          </div>
+        </div>
 
-    <section>
+      </div>
 
-        <h1>Go further</h1>
+    </section><!-- /About Section -->
 
-        <h2>
-            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect x='32' y='96' width='64' height='368' rx='16' ry='16' class="svg-stroke" /><line x1='112' y1='224' x2='240' y2='224' class="svg-stroke" /><line x1='112' y1='400' x2='240' y2='400' class="svg-stroke" /><rect x='112' y='160' width='128' height='304' rx='16' ry='16' class="svg-stroke" /><rect x='256' y='48' width='96' height='416' rx='16' ry='16' class="svg-stroke" /><path d='M422.46,96.11l-40.4,4.25c-11.12,1.17-19.18,11.57-17.93,23.1l34.92,321.59c1.26,11.53,11.37,20,22.49,18.84l40.4-4.25c11.12-1.17,19.18-11.57,17.93-23.1L445,115C443.69,103.42,433.58,94.94,422.46,96.11Z' class="svg-stroke"/></svg>
-            Learn
-        </h2>
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
 
-        <p>The User Guide contains an introduction, tutorial, a number of "how to"
-            guides, and then reference documentation for the components that make up
-            the framework. Check the <a href="https://codeigniter.com/user_guide/"
-            target="_blank">User Guide</a> !</p>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <h2>
-            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path d='M431,320.6c-1-3.6,1.2-8.6,3.3-12.2a33.68,33.68,0,0,1,2.1-3.1A162,162,0,0,0,464,215c.3-92.2-77.5-167-173.7-167C206.4,48,136.4,105.1,120,180.9a160.7,160.7,0,0,0-3.7,34.2c0,92.3,74.8,169.1,171,169.1,15.3,0,35.9-4.6,47.2-7.7s22.5-7.2,25.4-8.3a26.44,26.44,0,0,1,9.3-1.7,26,26,0,0,1,10.1,2L436,388.6a13.52,13.52,0,0,0,3.9,1,8,8,0,0,0,8-8,12.85,12.85,0,0,0-.5-2.7Z' class="svg-stroke" /><path d='M66.46,232a146.23,146.23,0,0,0,6.39,152.67c2.31,3.49,3.61,6.19,3.21,8s-11.93,61.87-11.93,61.87a8,8,0,0,0,2.71,7.68A8.17,8.17,0,0,0,72,464a7.26,7.26,0,0,0,2.91-.6l56.21-22a15.7,15.7,0,0,1,12,.2c18.94,7.38,39.88,12,60.83,12A159.21,159.21,0,0,0,284,432.11' class="svg-stroke" /></svg>
-            Discuss
-        </h2>
+        <div class="row gy-4">
 
-        <p>CodeIgniter is a community-developed open source project, with several
-             venues for the community members to gather and exchange ideas. View all
-             the threads on <a href="https://forum.codeigniter.com/"
-             target="_blank">CodeIgniter's forum</a>, or <a href="https://join.slack.com/t/codeigniterchat/shared_invite/zt-rl30zw00-obL1Hr1q1ATvkzVkFp8S0Q"
-             target="_blank">chat on Slack</a> !</p>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="112" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong></p>
+            </div>
+          </div><!-- End Stats Item -->
 
-        <h2>
-        <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><line x1='176' y1='48' x2='336' y2='48' class="svg-stroke" /><line x1='118' y1='304' x2='394' y2='304' class="svg-stroke" /><path d='M208,48v93.48a64.09,64.09,0,0,1-9.88,34.18L73.21,373.49C48.4,412.78,76.63,464,123.08,464H388.92c46.45,0,74.68-51.22,49.87-90.51L313.87,175.66A64.09,64.09,0,0,1,304,141.48V48' class="svg-stroke" /></svg>
-             Contribute
-        </h2>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="120" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong></p>
+            </div>
+          </div><!-- End Stats Item -->
 
-        <p>CodeIgniter is a community driven project and accepts contributions
-             of code and documentation from the community. Why not
-             <a href="https://codeigniter.com/contribute" target="_blank">
-             join us</a> ?</p>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1234" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong></p>
+            </div>
+          </div><!-- End Stats Item -->
 
-    </section>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong></p>
+            </div>
+          </div><!-- End Stats Item -->
 
-</div>
+        </div>
 
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Menguasai berbagai keterampilan teknis dan lunak yang mendukung kesuksesan proyek dan kolaborasi tim. Selalu berkomitmen untuk belajar dan berkembang, memastikan kemampuan yang relevan dan up-to-date.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">68%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">45%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>JavaScript</span> <i class="val">20%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>PHP</span> <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>WordPress/CMS</span> <i class="val">63%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="63" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Copy Writer</span> <i class="val">15%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Lihat riwayat pekerjaan, keterampilan, dan pencapaian saya yang relevan dengan karir profesional. Temukan bagaimana pengalaman dan kualifikasi saya dapat memberikan nilai tambah bagi proyek atau organisasi Anda.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>PT. Alexindo Mandiri Express Logistics</h4>
+              <p><em>Selama bekerja sebagai pengembang web (Web Devoloper), saya memastikan setiap website memenuhi kebutuhan bisnis dan estetika yang diharapkan..</em></p>
+              <ul>
+                <li>Jl. Cikunir Raya, No.9, RT.006/RW.03, Kel. Jakamulya, Kec. Bekasi Selatan, Kota Bekasi.</li>
+                <li>(021) 8243-8001</li>
+                <li>amex.indo@cbn.net.id</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Organization experience</h3>
+            <div class="resume-item">
+              <h4>Sekretaris Umum</h4>
+              <h5>2023 - 2024</h5>
+              <p><em>Pengurus Rayon PMII Teknik UNUSIA Jakarta</em></p>
+              <p>Mengelola administrasi, Merekap data anggota dan kader, dan development website rayon</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Sekretaris Umum &amp; Wakil Ketua Umum</h4>
+              <h5>2022 - 2024 </h5>
+              <p><em>Himpunan Mahasiswa Teknik Informatika UNUSIA</em></p>
+              <p>Mengelola administrasi, merangkul teman teman internal, dan Menemani Ketua Umum</p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Training Experience</h3>
+            <div class="resume-item">
+              <h4>Junior Web Developer</h4>
+              <h5>2024</h5>
+              <p><em>Kominfo</em></p>
+              <ul>
+                <li>Belajar fundamental html,css, javascript</li>
+                <li>Membuat project sederhana yaitu website esteh dengan sedikit logic. </li>
+                <li>mendesain tampilan atau mookup website dengan figma</li>
+                <li>Interview atau mendemonstrasikan codingan yang telah dibuat dalam waktu 2 jam </li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Data Science Fundamentals</h4>
+              <h5>2024</h5>
+              <p><em>DQLab</em></p>
+              <ul>
+                <li>Belajar Bahasa R, Python, dan SQL</li>
+                <li>Menyelesaikan tasks sederhana dari 3 bahasa tersebut.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Kumpulan Karya dan Prestasi. Lihat berbagai proyek dan pencapaian yang telah saya capai, dari website dan desktop kreatif hingga solusi teknis yang inovatif. Setiap karya mencerminkan keterampilan, dedikasi, dan profesionalisme dalam bidang saya.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-website">Website</li>
+            <li data-filter=".filter-desktop">Desktop</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/website-1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Website 1</h4>
+                  <p>Website Es Teh Menyengarkan di masa apapun</p>
+                  <a href="assets/img/portfolio/website-1.png" title="Website 1" data-gallery="portfolio-gallery-website" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-desktop">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/desktop-1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Desktop 1</h4>
+                  <p>Aplikasi Desktop Product Management</p>
+                  <a href="assets/img/portfolio/desktop-1.png" title="Desktop 1" data-gallery="portfolio-gallery-desktop" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/website-2.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Website 2</h4>
+                  <p>Website Company Profile PT. Alexindo Mandiri Express Logistics</p>
+                  <a href="assets/img/portfolio/website-2.png" title="Website 2" data-gallery="portfolio-gallery-website" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/website-3.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Website 3</h4>
+                  <p>Website PMII Rayon Teknik UNUSIA Jakarta</p>
+                  <a href="assets/img/portfolio/website-3.png" title="Website 3" data-gallery="portfolio-gallery-website" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Hubungi Saya</h2>
+        <p>Saya siap bekerja sama dan mendiskusikan proyek baru. Jangan ragu untuk menghubungi saya melalui email atau media sosial. Saya akan segera merespons pertanyaan dan permintaan Anda.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Alamat</h3>
+                  <p>Jl. Matraman Dalam III, Kel. Pegangsaan, Kec. Menteng, Jakarta Pusat.</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+62 813 8123 2139</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>akhallavi12@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBz8ynSiItupmdzgMphM1XM4q-bBJPJBGk&q=Sekretariat%20Rayon%20PMII%20Teknik%20Unusia,Jakarta" width="100%" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
 <!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
 
 <?= $this->endSection(); ?>
